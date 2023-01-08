@@ -6,7 +6,7 @@ function palindrome(str){
 
     while(s<e){
         if(str[s]!=str[e]){
-            return true
+            return false
         }
         s++
         e--
